@@ -1,5 +1,5 @@
 
-import type { FileSystemConfig } from 'common/fileSystemConfig';
+import type { FileSystemConfig } from './common/src/fileSystemConfig';
 import * as dns from 'dns';
 import { request } from 'http';
 import { SocksClient } from 'socks';

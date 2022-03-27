@@ -1,5 +1,5 @@
 
-import { FileSystemConfig, getGroups } from 'common/fileSystemConfig';
+import { FileSystemConfig, getGroups } from './common/src/fileSystemConfig';
 import * as vscode from 'vscode';
 import { getConfigs, UPDATE_LISTENERS } from './config';
 import type { Connection, ConnectionManager } from './connection';

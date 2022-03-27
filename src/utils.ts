@@ -1,4 +1,4 @@
-import type { EnvironmentVariable } from 'common/fileSystemConfig';
+import type { EnvironmentVariable } from './common/src/fileSystemConfig';
 import { DEBUG } from './logging';
 
 function prepareStackTraceDefault(error: Error, stackTraces: NodeJS.CallSite[]): string {

@@ -1,5 +1,5 @@
 
-import { ConfigLocation, FileSystemConfig, invalidConfigName, parseConnectionString } from 'common/fileSystemConfig';
+import { ConfigLocation, FileSystemConfig, invalidConfigName, parseConnectionString } from './common/src/fileSystemConfig';
 import { readFile, writeFile } from 'fs';
 import { parse as parseJsonc, ParseError } from 'jsonc-parser';
 import * as semver from 'semver';

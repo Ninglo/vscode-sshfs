@@ -1,4 +1,4 @@
-import { FileSystemConfig, isFileSystemConfig } from 'common/fileSystemConfig';
+import { FileSystemConfig, isFileSystemConfig } from './common/src/fileSystemConfig';
 import * as vscode from 'vscode';
 
 // Since the Extension Development Host runs with debugger, we can use this to detect if we're debugging.

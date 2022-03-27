@@ -1,6 +1,6 @@
 
-import type { ConfigLocation, FileSystemConfig } from 'common/fileSystemConfig';
-import type { Message, MessageTypes, PromptPathResultMessage, SaveConfigResultMessage } from 'common/webviewMessages';
+import type { ConfigLocation, FileSystemConfig } from './common/src/fileSystemConfig';
+import type { Message, MessageTypes, PromptPathResultMessage, SaveConfigResultMessage } from './common/src/webviewMessages';
 
 interface VSCodeAPI {
   postMessage(msg: Message): void;

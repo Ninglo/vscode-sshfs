@@ -1,6 +1,6 @@
 {
   "typescript.tsdk": ".yarn/sdks/typescript/lib",
-  "files.exclude": {
+  "files.watcherExclude": {
     "*.vsix": true,
     "**/*.lock": true,
     "**/node_modules/": true,

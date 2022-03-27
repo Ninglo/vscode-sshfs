@@ -1,7 +1,6 @@
 {
   "name": "webview",
   "version": "0.1.0",
-  "private": true,
   "scripts": {
     "start": "webpack serve",
     "build": "webpack --mode production"
@@ -64,8 +63,5 @@
     "presets": [
       "react-app"
     ]
-  },
-  "dependencies": {
-    "common": "workspace:*"
   }
 }

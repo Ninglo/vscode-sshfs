@@ -1,4 +1,4 @@
-import type { ConfigLocation, FileSystemConfig } from 'common/fileSystemConfig';
+import type { ConfigLocation, FileSystemConfig } from './common/src/fileSystemConfig';
 
 interface IViewState<V extends string> {
   view: V;

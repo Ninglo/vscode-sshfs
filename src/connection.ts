@@ -1,4 +1,4 @@
-import type { EnvironmentVariable, FileSystemConfig } from 'common/fileSystemConfig';
+import type { EnvironmentVariable, FileSystemConfig } from './common/src/fileSystemConfig';
 import { posix as path } from 'path';
 import * as readline from 'readline';
 import type { Client, ClientChannel } from 'ssh2';

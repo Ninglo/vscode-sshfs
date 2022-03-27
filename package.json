@@ -395,12 +395,6 @@
             }
         ]
     },
-    "capabilities": {
-        "virtualWorkspaces": true,
-        "untrustedWorkspaces": {
-            "supported": true
-        }
-    },
     "scripts": {
         "vscode:prepublish": "yarn workspaces foreach -tvip -j 2 run build",
         "build": "webpack --mode production",
@@ -423,7 +417,7 @@
         "webpack-cli": "^4.7.2"
     },
     "dependencies": {
-        "common": "workspace:*",
+        "@types/ssh2": "^0.5.51",
         "event-stream": "^4.0.1",
         "jsonc-parser": "^2.0.0",
         "semver": "^7.3.5",
@@ -433,10 +427,5 @@
     },
     "resolutions": {
         "cpu-features": "npm:@favware/skip-dependency@1.1.3"
-    },
-    "workspaces": [
-        "./common",
-        "./webview"
-    ],
-    "packageManager": "yarn@3.1.1"
+    }
 }

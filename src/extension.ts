@@ -1,5 +1,5 @@
 
-import type { FileSystemConfig } from 'common/fileSystemConfig';
+import type { FileSystemConfig } from './common/src/fileSystemConfig';
 import * as vscode from 'vscode';
 import { loadConfigs } from './config';
 import type { Connection } from './connection';

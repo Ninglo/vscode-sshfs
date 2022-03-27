@@ -1,5 +1,5 @@
 
-import type { FileSystemConfig } from 'common/fileSystemConfig';
+import type { FileSystemConfig } from './common/src/fileSystemConfig';
 import * as path from 'path';
 import type * as ssh2 from 'ssh2';
 import * as vscode from 'vscode';

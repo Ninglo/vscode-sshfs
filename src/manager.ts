@@ -1,6 +1,6 @@
 
-import type { FileSystemConfig } from 'common/fileSystemConfig';
-import type { Navigation } from 'common/webviewMessages';
+import type { FileSystemConfig } from './common/src/fileSystemConfig';
+import type { Navigation } from './common/src/webviewMessages';
 import * as vscode from 'vscode';
 import { getConfig, getFlagBoolean, loadConfigsRaw } from './config';
 import { Connection, ConnectionManager } from './connection';

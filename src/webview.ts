@@ -1,6 +1,6 @@
 
-import { getLocations } from 'common/fileSystemConfig';
-import type { Message, Navigation } from 'common/webviewMessages';
+import { getLocations } from './common/src/fileSystemConfig';
+import type { Message, Navigation } from './common/src/webviewMessages';
 import * as fs from 'fs';
 import * as path from 'path';
 import * as vscode from 'vscode';

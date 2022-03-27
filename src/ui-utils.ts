@@ -1,5 +1,5 @@
 
-import { FileSystemConfig, parseConnectionString } from 'common/fileSystemConfig';
+import { FileSystemConfig, parseConnectionString } from './common/src/fileSystemConfig';
 import * as vscode from 'vscode';
 import { getConfigs } from './config';
 import type { Connection, ConnectionManager } from './connection';

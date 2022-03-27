@@ -1,4 +1,4 @@
-import type { FileSystemConfig } from 'common/fileSystemConfig';
+import type { FileSystemConfig } from './common/src/fileSystemConfig';
 import { readFile } from 'fs';
 import { Socket } from 'net';
 import { userInfo } from 'os';
