@@ -6,6 +6,8 @@
 [![Visual Studio Marketplace](https://img.shields.io/visual-studio-marketplace/v/Kelvin.vscode-sshfs?label=VS%20Marketplace&logo=sdf)](https://marketplace.visualstudio.com/items?itemName=Kelvin.vscode-sshfs)
 [![OpenVSX Registry](https://img.shields.io/open-vsx/v/Kelvin/vscode-sshfs?label=Open%20VSX)](https://open-vsx.org/extension/Kelvin/vscode-sshfs)
 
+
+
 [![VS Market installs](https://img.shields.io/visual-studio-marketplace/i/Kelvin.vscode-sshfs?color=green&label=Installs)](https://marketplace.visualstudio.com/items?itemName=Kelvin.vscode-sshfs)
 [![GitHub Sponsors](https://img.shields.io/github/sponsors/SchoofsKelvin?color=green&label=GitHub%20Sponsors)](https://github.com/sponsors/SchoofsKelvin)
 [![Donate](./media/paypal.png)](https://www.paypal.me/KSchoofs)
